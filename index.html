@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+    <title>O Enigma da Chave Dourada</title>
+</head>
+<body>
+    
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="imagem.jpg" alt="">
+            <p>Você é um Detetive renomado chamado para resolver o desaparecimento de uma jovem chamada Antonia. Antonia é filha de um importante empresário local e o caso ganhou atenção na mídia muito rápido. Durante a investigação você encontra três itens importantes: um bilhete misterioso, uma chave dourada e uma lista de nomes. Com esses itens você precisa desvendar o que aconteceu com Antonia. Escolha qual item analisar primeiro:</p>
+            <button class="btn-proximo" data-proximo="1">Examinar Bilhete</button>
+            <button class="btn-proximo" data-proximo="2">Investigar Chave</button>
+            <button class="btn-proximo" data-proximo="3">Analisar a Lista Nomes</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Examinar o Bilhete:</p>
+            <p>No bilhete há uma mensagem escrita: "A resposta está onde tudo começou."</p>
+            <button class="btn-proximo" data-proximo="4">Visitar a casa da jovem desaparecida</button>
+            <button class="btn-proximo" data-proximo="5">Ir ao café frequentado por Antonia</button>
+            <button class="btn-proximo" data-proximo="6">Verificar os registros de telefonema</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
